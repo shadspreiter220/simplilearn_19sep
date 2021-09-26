@@ -24,7 +24,7 @@ public class FetchInfoFromDB {
 		while(rs.next()) {
 			System.out.print("Title: " + rs.getString("TITLE") + "\t");
 			System.out.print("Genre: " + rs.getString("GENRE") + "\t");
-			System.out.print("Director" + rs.getString("DIRECTOR") + "\t");
+			System.out.print("Director " + rs.getString("DIRECTOR") + "\t");
 			System.out.println("Release Year: " + rs.getInt("RELEASE_YEAR"));
 			
 		}
