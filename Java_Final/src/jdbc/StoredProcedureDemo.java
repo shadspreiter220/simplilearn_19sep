@@ -1,6 +1,6 @@
 package jdbc;
-// need to commit
-// github
+
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
